@@ -29,5 +29,6 @@ def run_scraper(req: ScrapeRequest):
     return {"message": "Scraping done", "results": df.to_dict(orient="records")}
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+
