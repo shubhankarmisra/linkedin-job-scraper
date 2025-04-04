@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 selenium
 pandas
 bs4
 webdriver-manager
+=======
+selenium
+webdriver-manager
+beautifulsoup4
+pandas
+>>>>>>> 8b0de6ca97a6cf2139a28f17736b689908912737
