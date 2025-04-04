@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -176,7 +175,7 @@ def scrape_and_save(url, max_pages=2):
     print("📁 File saved: linkedin_jobs.csv")
     driver.quit()
     return df
-=======
+
 {
  "cells": [
   {
@@ -444,4 +443,4 @@ def scrape_and_save(url, max_pages=2):
  "nbformat": 4,
  "nbformat_minor": 5
 }
->>>>>>> 8b0de6ca97a6cf2139a28f17736b689908912737
+
